@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryManagementApp</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryManagementApp.Controllers.AuthorController.GetAuthors">
+            <summary>
+            Gets all existing authors.
+            </summary>
+            <returns>A list of authors and their books.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.AuthorController.GetAuthor(System.Int32)">
+            <summary>
+            Gets an author by ID.
+            </summary>
+            <param name="id">The ID of the author to retrieve.</param>
+            <returns>The author with the specified ID.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.AuthorController.CreateAuthor(LibraryManagementApp.Models.Dtos.AuthorDtos.CreateAuthorDto)">
+            <summary>
+            Creates a new author.
+            </summary>
+            <param name="createAuthorDto">The details of the author to create.</param>
+            <returns>The created author.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.AuthorController.UpdateAuthor(System.Int32,LibraryManagementApp.Models.Dtos.AuthorDtos.UpdateAuthorDto)">
+            <summary>
+            Updates an existing author.
+            </summary>
+            <param name="id">The ID of the author to update.</param>
+            <param name="updateAuthorDto">The updated author details.</param>
+            <returns>The updated author.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.AuthorController.DeleteAuthor(System.Int32)">
+            <summary>
+            Deletes an author.
+            </summary>
+            <param name="id">The ID of the author to delete.</param>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.GetBooks">
+            <summary>
+            Gets all existing books.
+            </summary>
+            <returns>A list of books.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.CheckAllAvailableBooks">
+            <summary>
+            Checks all available books.
+            </summary>
+            <returns>A list of available books.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.GetBook(System.Int32)">
+            <summary>
+            Gets a book by ID.
+            </summary>
+            <param name="id">The ID of the book to retrieve.</param>
+            <returns>The book with the specified ID.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.CreateBook(LibraryManagementApp.Models.Dtos.BookDtos.CreateBookDto)">
+            <summary>
+            Creates a new book.
+            </summary>
+            <param name="createBookDto">The details of the book to create.</param>
+            <returns>The created book.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.UpdateBook(System.Int32,LibraryManagementApp.Models.Dtos.BookDtos.BookDto)">
+            <summary>
+            Updates an existing book.
+            </summary>
+            <param name="id">The ID of the book to update.</param>
+            <param name="bookDto">The updated book details.</param>
+            <returns>No content.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.CheckoutBook(System.Int32)">
+            <summary>
+            Checks out a book.
+            </summary>
+            <param name="id">The ID of the book to check out.</param>
+            <returns>No content.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.ReturnBook(System.Int32)">
+            <summary>
+            Returns a book.
+            </summary>
+            <param name="id">The ID of the book to return.</param>
+            <returns>No content.</returns>
+        </member>
+        <member name="M:LibraryManagementApp.Controllers.BookController.Delete(System.Int32)">
+            <summary>
+            Deletes a book.
+            </summary>
+            <param name="id">The ID of the book to delete.</param>
+            <returns>No content.</returns>
+        </member>
+        <member name="T:LibraryManagementApp.Migrations.initialmigration">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.initialmigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.initialmigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.initialmigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LibraryManagementApp.Migrations.adddeletebehavior">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.adddeletebehavior.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.adddeletebehavior.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.adddeletebehavior.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LibraryManagementApp.Migrations.cascadedelete">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.cascadedelete.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.cascadedelete.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementApp.Migrations.cascadedelete.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
