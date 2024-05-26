@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Identity</name>
+    </assembly>
+    <members>
+        <member name="M:Identity.Controllers.AuthController.Register(Identity.Models.Dto.UserDto)">
+            <summary>
+            Registers a new user.
+            </summary>
+            <param name="userDto">The user data transfer object.</param>
+            <returns>The registered user.</returns>
+        </member>
+        <member name="M:Identity.Controllers.AuthController.Login(Identity.Models.Dto.UserDto)">
+            <summary>
+            Authenticates a user and returns a JWT token.
+            </summary>
+            <param name="userDto">The user data transfer object.</param>
+            <returns>A JWT token.</returns>
+        </member>
+    </members>
+</doc>

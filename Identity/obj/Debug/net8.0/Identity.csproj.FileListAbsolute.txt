@@ -45,3 +45,4 @@ C:\Users\giorg\RiderProjects\LibraryManagement\Identity\bin\Debug\net8.0\Microso
 C:\Users\giorg\RiderProjects\LibraryManagement\Identity\bin\Debug\net8.0\Scrutor.dll
 C:\Users\giorg\RiderProjects\LibraryManagement\Identity\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\giorg\RiderProjects\LibraryManagement\Identity\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\Identity\bin\Debug\net8.0\Identity.xml
