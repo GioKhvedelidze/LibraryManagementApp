@@ -2,12 +2,14 @@
 using LibraryManagementApp.Models.Dtos;
 using LibraryManagementApp.Models.Dtos.AuthorDtos;
 using LibraryManagementApp.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryManagementApp.Controllers;
 
 [Route("/api/[Controller]")]
 [ApiController]
+[Authorize]
 public class AuthorController : ControllerBase
 {
     private readonly IAuthorRepository _authorRepository;

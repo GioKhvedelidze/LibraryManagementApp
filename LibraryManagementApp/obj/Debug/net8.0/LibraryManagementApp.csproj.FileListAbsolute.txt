@@ -104,3 +104,15 @@ C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\obj\Debug\ne
 C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\obj\Debug\net8.0\LibraryManagementApp.genruntimeconfig.cache
 C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\obj\Debug\net8.0\ref\LibraryManagementApp.dll
 C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\LibraryManagementApp.xml
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Scrutor.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\obj\Debug\net8.0\LibraryManagementApp.sourcelink.json
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\giorg\RiderProjects\LibraryManagement\LibraryManagementApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

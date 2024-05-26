@@ -9,5 +9,13 @@
       <jdbc-url>jdbc:postgresql://localhost:5433/librarydb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="identitydb@localhost" uuid="16d65aa7-be0d-486f-8615-cd4dde1b6be4">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5434/identitydb?password=identitypassword&amp;user=identityuser</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
