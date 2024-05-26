@@ -19,7 +19,12 @@ public class AuthController : ControllerBase
     {
         _configuration = configuration;
     }
-
+    
+    /// <summary>
+    /// Registers a new user.
+    /// </summary>
+    /// <param name="userDto">The user data transfer object.</param>
+    /// <returns>The registered user.</returns>
     [HttpPost("register")]
     public  ActionResult<User> Register(UserDto userDto)
     {
@@ -31,6 +36,12 @@ public class AuthController : ControllerBase
         return Ok(user);
     }
     
+    
+    /// <summary>
+    /// Authenticates a user and returns a JWT token.
+    /// </summary>
+    /// <param name="userDto">The user data transfer object.</param>
+    /// <returns>A JWT token.</returns>
     [HttpPost("login")]
     public  ActionResult<User> Login(UserDto userDto)
     {
@@ -53,7 +64,7 @@ public class AuthController : ControllerBase
 
         return Ok(response);
     }
-
+    
     private string CreateToken(User user)
     {
         List<Claim> claims = new List<Claim> {

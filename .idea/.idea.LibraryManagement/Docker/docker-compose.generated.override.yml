@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.9"
+services:
+  identityapi:
+    build:
+      context: "C:\\Users\\giorg\\RiderProjects\\LibraryManagement"
+      dockerfile: "Identity/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Identity.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "identity:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\giorg\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\giorg\\RiderProjects\\LibraryManagement\\Identity:/app:rw"
+    - "C:\\Users\\giorg\\RiderProjects\\LibraryManagement:/src:rw"
+    working_dir: "/app"
+  librarymanagementapi:
+    build:
+      context: "C:\\Users\\giorg\\RiderProjects\\LibraryManagement"
+      dockerfile: "LibraryManagementApp/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/LibraryManagementApp.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "librarymanagementapp:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\giorg\\AppData\\Roaming\\Microsoft\\UserSecrets:/home/app/.microsoft/usersecrets"
+    - "C:\\Users\\giorg\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\giorg\\RiderProjects\\LibraryManagement\\LibraryManagementApp:/app:rw"
+    - "C:\\Users\\giorg\\RiderProjects\\LibraryManagement:/src:rw"
+    working_dir: "/app"
